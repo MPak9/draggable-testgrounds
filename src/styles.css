@@ -1,0 +1,25 @@
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.draggableParentContainer {
+  background-color: #282c34;
+  height: 80%;
+  width: 80%;
+  position: relative;
+  overflow: auto;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.draggable {
+  background-color: #f0ffff;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+}
